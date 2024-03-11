@@ -3,25 +3,37 @@ Repo for Sinden soft mod
 **DONT USE THIS MODDED VERSION TO UPDATE YOUR LIGHTGUN FIRMWARE. USE THE OFFICIAL APP !**
 
 Emulators that support my Sinden recoil : 
+
 https://github.com/nixxou/Dolphin
+
 https://github.com/nixxou/pcsx2
+
 https://github.com/nixxou/duckstation
+
 
 Todo : A mamehooker dll.
 
 Know bug : Currently if you launch a game with recoil support, you can't hit the stop button on the siden software while the game is running.
 
 You can send command lines :
+
 .\Lightgun.exe -action "start"
+
 .\Lightgun.exe -action "stop"
+
 .\Lightgun.exe -action "mouse-pause"
+
 .\Lightgun.exe -action "mouse-resume"
+
 .\Lightgun.exe -action "load-config test.Config"
+
 .\Lightgun.exe -action "restore-config"
+
 
 When you launch them, it will not popup a new Lightgun app, but send commands to the existing one.
 
 You can also add offsets to a profile with command like : -action "load-config Dolphin.Config:10,20,30,40"
+
 that will set X Offset to 10, X Ratio to 20, Y Offset to 30 and Y Ratio to 40.
 
 To make a profile, just make a copy of the Lightgun.exe.Config after you made all the change in it that you want and rename it. Not sure what happen if you try to save config change once a profile is loaded, so don't do that.
