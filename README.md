@@ -11,7 +11,7 @@ https://github.com/nixxou/pcsx2
 https://github.com/nixxou/duckstation
 
 
-Todo : A mamehooker dll.
+A mamehooker dll to make it work with mamehooker : https://github.com/nixxou/PacDriveSDK
 
 Know bug : Currently if you launch a game with recoil support, you can't hit the stop button on the siden software while the game is running.
 
